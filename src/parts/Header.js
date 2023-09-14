@@ -9,8 +9,7 @@ import { Transition } from '@headlessui/react';
 import Button from 'elements/Button';
 import BrandIcon from 'parts/BrandIcon';
 
-export default function Header(props) {
-  const { location } = props;
+export default function Header() {
   const [isCollapse, setIsCollapse] = useState(false);
 
   return (

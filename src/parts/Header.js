@@ -12,7 +12,6 @@ import BrandIcon from 'parts/BrandIcon';
 export default function Header(props) {
   const { location } = props;
   const [isCollapse, setIsCollapse] = useState(false);
-  const path = location.pathname;
 
   return (
     <header className="header">
